@@ -1,0 +1,30 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    position: relative;
+}
+.slider{
+    max-width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+    border-radius: 60px;
+}
+.slider-line{
+    display: flex;
+    transition: all 0.1s;
+    position: relative;
+}
+
+.next, .previous{
+    position: absolute;
+    height: 10%;
+    top: 45%;
+}
+.next{
+    right: 11%;
+}
+.previous{
+    left: 11%;
+}
